@@ -50,8 +50,25 @@
 # n=(input("Enter a ticket number: "))
 # if len(n)  %2==0:
 #     if (int(n[0])+int(n[1])+int(n[2]))==(int(n[3])+int(n[4])+int(n[5])):
-#         print("Congrats!You have a lacky ticket!")
+#         print("Congrats!You have a lucky ticket!")
 #     else:
 #         print("Oops:( You'll be lucky another time!)")     
 # else:
 #      print("it's wrong number! You have to enter 6 items")         
+
+
+# Задача 8: Требуется определить, можно ли от шоколадки размером n × m долек отломить k долек, 
+# если разрешается сделать один разлом по прямой между дольками (то есть разломить шоколадку на два прямоугольника).
+
+# *Пример:*
+
+# 3 2 4 -> yes
+# 3 2 1 -> no
+
+n=int(input("Enter a number of rows: "))
+m=int(input("Enter a number of strings: "))
+k=int(input("Enter a number of bites: "))
+if (n*m>k) and (k%n==0 or k%m==0):
+    print("YES")
+else:
+    print("NO")
