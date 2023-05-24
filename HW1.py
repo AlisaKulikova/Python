@@ -27,7 +27,7 @@
 # 24 -> 4  16  4
 # 60 -> 10  40  10
 
-# sum= int(input("Enter a sum of boats: "))
+# sum= int(input("Enter a sum of paper crane: "))
 # if sum%6==0:
 #     print("Petya made",sum//6,",","Sergey made", sum//6,",","Katya made",4*(sum//6))
 # else:
@@ -65,10 +65,10 @@
 # 3 2 4 -> yes
 # 3 2 1 -> no
 
-n=int(input("Enter a number of rows: "))
-m=int(input("Enter a number of strings: "))
-k=int(input("Enter a number of bites: "))
-if (n*m>k) and (k%n==0 or k%m==0):
-    print("YES")
-else:
-    print("NO")
+# n=int(input("Enter a number of rows: "))
+# m=int(input("Enter a number of strings: "))
+# k=int(input("Enter a number of bites: "))
+# if (n*m>k) and (k%n==0 or k%m==0):
+#     print("YES")
+# else:
+#     print("NO")
